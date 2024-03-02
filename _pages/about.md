@@ -1,14 +1,13 @@
 ---
 permalink: /
 title: "Zirui Yuan"
+excerpt: "About Me"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-About Me
-======
 I am a third-year master student at Tianjin University, guided by Prof. [Minglai Shao](https://shaoml114.github.io/). My primary research interest is in graph machine learning.
 If you are interested in any aspect of me, I would love to chat and collaborate.
 
