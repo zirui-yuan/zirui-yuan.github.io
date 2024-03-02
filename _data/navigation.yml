@@ -16,7 +16,7 @@ main:
   #   url: /year-archive/
     
   - title: "CV"
-    url: "../files/ZiruiYuan_CV.pdf"
+    url: "/files/ZiruiYuan_CV.pdf"
     
   # - title: "Guide"
   #   url: /markdown/
