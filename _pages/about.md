@@ -20,5 +20,12 @@ Publications
 ======
 + **Zirui Yuan**, Minglai Shao, Zhiqian Chen. Graph Bayesian Optimization for Multiplex Influence Maximization. The 38th Annual AAAI Conference on Artificial Intelligence (AAAI), 2024.
 + **Zirui Yuan**, Minglai Shao, Qiben Yan. Motif-level Anomaly Detection in Dynamic Graphs. IEEE Transactions on Information Forensics Security (TIFS), 2023.
+[[online](https://ieeexplore.ieee.org/document/10115014)]
+
+Education
+======
++ M.Sc. in Computer Technology at Tianjin University (2021-2024).
++ B.E. in Electronic Information Science and Technology at Dalian Maritime University (2017-2021).
+
 
 
