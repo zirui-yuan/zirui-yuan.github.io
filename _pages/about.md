@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a third-year master student at Tianjin University, guided by Prof. [Minglai Shao](https://shaoml114.github.io/). My primary research interest is in graph machine learning.
+I am currently a final year master student at Tianjin University, supervised by Prof. [Minglai Shao](https://shaoml114.github.io/). My primary research interests lie in graph machine learning and artificial intelligence.
 If you are interested in any aspect of me, I would love to chat and collaborate.
 
 I expect to graduate from Tianjin University in March 2024, and I am looking for a PhD position in 2024 Fall. Contact me if you have any leads!
