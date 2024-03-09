@@ -20,8 +20,8 @@ News
 
 Publications
 ======
-+ **Zirui Yuan**, Minglai Shao, Zhiqian Chen. Graph Bayesian Optimization for Multiplex Influence Maximization. The 38th Annual AAAI Conference on Artificial Intelligence (AAAI), 2024.
-+ **Zirui Yuan**, Minglai Shao, Qiben Yan. [Motif-level Anomaly Detection in Dynamic Graphs](https://ieeexplore.ieee.org/document/10115014). IEEE Transactions on Information Forensics Security (TIFS), 2023.
++ **Zirui Yuan**, Minglai Shao, Zhiqian Chen. Graph Bayesian Optimization for Multiplex Influence Maximization. The 38th Annual AAAI Conference on Artificial Intelligence (AAAI), 2024. [paper][code]
++ **Zirui Yuan**, Minglai Shao, Qiben Yan. Motif-level Anomaly Detection in Dynamic Graphs. IEEE Transactions on Information Forensics Security (TIFS), 2023. [paper](https://ieeexplore.ieee.org/document/10115014)[code](https://github.com/zirui-yuan/MADG)
 
 Education
 ======
