@@ -8,15 +8,10 @@ redirect_from:
   - /about.html
 ---
 
-I am currently a final year master student at Tianjin University, supervised by Prof. [Minglai Shao](https://shaoml114.github.io/). My primary research interests lie in graph machine learning and artificial intelligence.
+I am a first-year Ph.D student at The Hong Kong University of Science and Technology (Guangzhou), supervised by Prof. [Hao Liu](https://raymondhliu.github.io/)
+Before that, I earned a master’s degree at Tianjin University, supervised by Prof. [Minglai Shao](https://shaoml114.github.io/). 
+Currently, my research interest focuses on LLMs for Urban Computing and Intelligent Transportation.
 
-If you are interested in any aspect of me, I would love to chat and collaborate.
-
-I expect to graduate from Tianjin University in March 2024, and I am looking for a PhD position in 2024 Fall. Contact me if you have any leads!
-
-News
-======
-+ [03/2024] I created this page. 
 
 Publications
 ======
@@ -26,6 +21,7 @@ Publications
 
 Education
 ======
++ Ph.D. Student in Artificial Intelligence at The Hong Kong University of Science and Technology (Guangzhou) (2024 - now).
 + M.Sc. in Computer Technology at Tianjin University (2021-2024).
 + B.E. in Electronic Information Science and Technology at Dalian Maritime University (2017-2021).
 
