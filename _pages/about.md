@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a first-year Ph.D student at The Hong Kong University of Science and Technology (Guangzhou), supervised by Prof. [Hao Liu](https://raymondhliu.github.io/)
+I am a first-year Ph.D student at The Hong Kong University of Science and Technology (Guangzhou), supervised by Prof. [Hao Liu](https://raymondhliu.github.io/).
 Before that, I earned a master’s degree at Tianjin University, supervised by Prof. [Minglai Shao](https://shaoml114.github.io/). 
 Currently, my research interest focuses on LLMs for Urban Computing and Intelligent Transportation.
 
