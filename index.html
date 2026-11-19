@@ -1,0 +1,670 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Zirui Yuan (袁子瑞)</title>
+    <meta
+      name="description"
+      content="Zirui Yuan (袁子瑞) — Third-year Ph.D. candidate in Artificial Intelligence at HKUST(GZ). Research in self-evolving AI, personal agents, autonomous R&D, and decision-making in dynamic real-world systems."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Zirui Yuan (袁子瑞)" />
+    <meta
+      property="og:description"
+      content="Third-year Ph.D. candidate in Artificial Intelligence at HKUST(GZ). Research in self-evolving AI, personal agents, autonomous R&D, and decision-making in dynamic real-world systems."
+    />
+    <meta property="og:url" content="https://zirui-yuan.github.io/" />
+    <meta property="og:image" content="https://zirui-yuan.github.io/images/profile.png" />
+    <meta name="theme-color" content="#FAF9F6" id="meta-theme-color" />
+
+    <link rel="icon" type="image/svg+xml" href="images/favicon.svg?v=2" />
+    <link rel="icon" type="image/x-icon" href="favicon.ico?v=2" />
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png?v=2" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;450;500;600&family=JetBrains+Mono:wght@400;500&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400&family=Noto+Serif+SC:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+
+    <script>
+      (function () {
+        try {
+          var saved = localStorage.getItem("zy-theme");
+          var prefersDark = window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches;
+          var theme = saved || (prefersDark ? "dark" : "light");
+          document.documentElement.setAttribute("data-theme", theme);
+          var meta = document.getElementById("meta-theme-color");
+          if (meta) meta.setAttribute("content", theme === "dark" ? "#0E1014" : "#FAF9F6");
+        } catch (e) {}
+      })();
+    </script>
+
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="site-header" id="site-header">
+      <div class="header-inner">
+        <a class="brand" href="#top" aria-label="Zirui Yuan Home">
+          <span class="brand-mark" aria-hidden="true">ZY</span>
+          <span class="brand-name">Zirui Yuan</span>
+        </a>
+
+        <nav class="site-nav" aria-label="Primary navigation">
+          <a class="nav-link" href="#news">News</a>
+          <a class="nav-link" href="#publications">Publications</a>
+          <a class="nav-link" href="#experience">Experience</a>
+          <a class="nav-link" href="#education">Education</a>
+          <a class="nav-link" href="#honors">Honors</a>
+          <button
+            type="button"
+            class="theme-toggle"
+            id="theme-toggle"
+            aria-label="Toggle color theme"
+            title="Toggle light / dark theme"
+          >
+            <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <circle cx="12" cy="12" r="4"></circle>
+              <path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41"></path>
+            </svg>
+            <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+            </svg>
+          </button>
+        </nav>
+      </div>
+      <div class="scroll-progress" id="scroll-progress" aria-hidden="true"></div>
+    </header>
+
+    <main id="main">
+      <!-- Hero / Editorial Masthead -->
+      <section class="hero" id="top">
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <h1 class="hero-title enter" style="--d: 0ms">
+              <span>Zirui Yuan</span>
+              <span class="hero-name-zh" lang="zh-Hans">袁子瑞</span>
+            </h1>
+
+            <div class="hero-bio enter" style="--d: 70ms">
+              <p>
+                I am a third-year Ph.D. candidate in Artificial Intelligence at
+                <a href="https://www.hkust-gz.edu.cn/" target="_blank" rel="noopener noreferrer">The Hong Kong University of Science and Technology (Guangzhou)</a>,
+                advised by Prof.
+                <a href="https://raymondhliu.github.io/" target="_blank" rel="noopener noreferrer">Hao Liu</a>.
+                Previously, I earned my M.Sc. from Tianjin University under the supervision of Prof.
+                <a href="https://shaoml114.github.io/" target="_blank" rel="noopener noreferrer">Minglai Shao</a>,
+                and my B.E. from Dalian Maritime University.
+              </p>
+              <p>
+                My research spans <strong>self-evolving AI</strong>, <strong>personal agents</strong>, <strong>autonomous R&amp;D</strong>, and <strong>decision-making in dynamic real-world systems</strong>.
+              </p>
+            </div>
+
+            <div class="hero-links enter" style="--d: 140ms" aria-label="Academic profiles and contact">
+              <button
+                type="button"
+                class="action-link action-primary email-action"
+                aria-label="Copy email address"
+                title="Click to copy email address"
+              >
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <rect x="2" y="4" width="20" height="16" rx="2"></rect>
+                  <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path>
+                </svg>
+                <span>Email</span>
+              </button>
+              <a
+                class="action-link"
+                href="https://scholar.google.com/citations?user=8tJFoscAAAAJ"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <path d="M22 10v6M2 10l10-5 10 5-10 5z"></path>
+                  <path d="M6 12v5c3 3 9 3 12 0v-5"></path>
+                </svg>
+                <span>Google Scholar</span>
+              </a>
+              <a
+                class="action-link"
+                href="https://github.com/zirui-yuan"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                  <path d="M12 2.25a9.75 9.75 0 0 0-3.08 19c.49.09.67-.21.67-.47v-1.72c-2.74.6-3.32-1.16-3.32-1.16-.45-1.14-1.09-1.44-1.09-1.44-.89-.61.07-.6.07-.6.99.07 1.51 1.01 1.51 1.01.88 1.51 2.31 1.07 2.87.82.09-.64.34-1.07.62-1.32-2.19-.25-4.49-1.1-4.49-4.86 0-1.07.38-1.95 1.01-2.64-.1-.25-.44-1.25.1-2.6 0 0 .82-.26 2.69 1.01a9.34 9.34 0 0 1 4.9 0c1.87-1.27 2.69-1.01 2.69-1.01.54 1.35.2 2.35.1 2.6.63.69 1.01 1.57 1.01 2.64 0 3.77-2.3 4.61-4.5 4.85.36.31.67.91.67 1.84v2.72c0 .27.18.57.68.47A9.75 9.75 0 0 0 12 2.25Z"></path>
+                </svg>
+                <span>GitHub</span>
+              </a>
+              <a
+                class="action-link"
+                href="files/ZiruiYuan_CV.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                  <polyline points="14 2 14 8 20 8"></polyline>
+                  <line x1="16" y1="13" x2="8" y2="13"></line>
+                  <line x1="16" y1="17" x2="8" y2="17"></line>
+                </svg>
+                <span>CV</span>
+              </a>
+            </div>
+          </div>
+
+          <aside class="hero-aside enter" style="--d: 100ms" aria-label="Portrait">
+            <figure class="portrait-frame">
+              <img
+                src="images/profile.png"
+                alt="Portrait of Zirui Yuan"
+                width="440"
+                height="500"
+                fetchpriority="high"
+              />
+            </figure>
+          </aside>
+        </div>
+      </section>
+
+      <!-- News -->
+      <section class="section" id="news">
+        <div class="container">
+          <div class="section-header reveal">
+            <h2 class="section-title">News</h2>
+          </div>
+
+          <ol class="news-list">
+            <li class="news-item reveal">
+              <time class="news-date" datetime="2026-11">2026.11</time>
+              <p class="news-body">
+                Two papers — <strong>DispatchEvolve</strong> and <strong>GenMatch</strong> — have been accepted to <strong>KDD 2027</strong>.
+              </p>
+            </li>
+            <li class="news-item reveal">
+              <time class="news-date" datetime="2026-10">2026.10</time>
+              <p class="news-body">
+                Awarded <strong>Second Prize</strong> at the 2026 DiDi Data Summit AI Data-Driven Competition.
+              </p>
+            </li>
+            <li class="news-item reveal">
+              <time class="news-date" datetime="2026-01">2026.01</time>
+              <p class="news-body">
+                Two papers — <strong>CoLLMLight</strong> and <strong>USTBench</strong> — have been accepted to <strong>ICLR 2026</strong>.
+              </p>
+            </li>
+            <li class="news-item reveal">
+              <time class="news-date" datetime="2025-09">2025.09</time>
+              <p class="news-body">
+                Joined <strong>DiDi Chuxing</strong> as a Research Intern working on LLM-driven matching and self-evolving decision engines.
+              </p>
+            </li>
+            <li class="news-item reveal">
+              <time class="news-date" datetime="2024-08">2024.08</time>
+              <p class="news-body">
+                Started my Ph.D. journey at <strong>HKUST(GZ)</strong>.
+              </p>
+            </li>
+          </ol>
+        </div>
+      </section>
+
+      <!-- Publications -->
+      <section class="section" id="publications">
+        <div class="container">
+          <div class="section-header section-header-pubs reveal">
+            <div>
+              <h2 class="section-title">Publications</h2>
+              <p class="section-note"><sup>*</sup> Equal contribution. Full list on <a href="https://scholar.google.com/citations?user=8tJFoscAAAAJ" target="_blank" rel="noopener noreferrer">Google Scholar</a>.</p>
+            </div>
+
+            <div class="pub-filters" role="tablist" aria-label="Filter publications">
+              <button type="button" class="filter-tab is-active" role="tab" aria-selected="true" data-filter="all">
+                All <span class="tab-count">8</span>
+              </button>
+              <button type="button" class="filter-tab" role="tab" aria-selected="false" data-filter="accepted">
+                Published / Accepted <span class="tab-count">6</span>
+              </button>
+              <button type="button" class="filter-tab" role="tab" aria-selected="false" data-filter="preprint">
+                Under Review &amp; Preprints <span class="tab-count">2</span>
+              </button>
+            </div>
+          </div>
+
+          <div class="pub-list" id="pub-list">
+            <!-- 1. DispatchEvolve -->
+            <article class="pub-item reveal" data-categories="accepted">
+              <div class="pub-margin">
+                <span class="venue-code venue-flagship">KDD ’27</span>
+                <span class="venue-sub">Co-First</span>
+              </div>
+              <div class="pub-content">
+                <h3 class="pub-title">
+                  <a href="https://dispatchevolve.github.io/" target="_blank" rel="noopener noreferrer">
+                    DispatchEvolve: Autonomous Policy Evolution for Industrial Ride-Hailing Dispatch Engines with Multi-Objective Constraints
+                  </a>
+                </h3>
+                <p class="pub-authors">
+                  <strong class="author-me">Zirui Yuan<sup>*</sup></strong>, Tengfei Lyu<sup>*</sup>, Kai Wan, Xu Liu, Zhui Sun, Zihao Lu, Li Ma, Hao Liu
+                </p>
+                <p class="pub-venue">
+                  ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD), 2027
+                </p>
+                <div class="pub-actions">
+                  <a class="pub-link" href="https://dispatchevolve.github.io/" target="_blank" rel="noopener noreferrer">Project<span aria-hidden="true">↗</span></a>
+                  <a class="pub-link" href="https://github.com/dispatchevolve/DispatchEvolve" target="_blank" rel="noopener noreferrer">Code<span aria-hidden="true">↗</span></a>
+                  <button type="button" class="pub-toggle" data-drawer="bib-dispatchevolve" aria-expanded="false">BibTeX</button>
+                </div>
+                <div class="pub-drawer" id="bib-dispatchevolve" hidden>
+                  <div class="bib-header">
+                    <span>BibTeX</span>
+                    <button type="button" class="bib-copy" data-copy-target="bib-code-dispatchevolve">Copy</button>
+                  </div>
+                  <pre class="bib-code" id="bib-code-dispatchevolve">@inproceedings{yuan2027dispatchevolve,
+  title     = {DispatchEvolve: Autonomous Policy Evolution for Industrial Ride-Hailing Dispatch Engines with Multi-Objective Constraints},
+  author    = {Yuan, Zirui and Lyu, Tengfei and Wan, Kai and Liu, Xu and Sun, Zhui and Lu, Zihao and Ma, Li and Liu, Hao},
+  booktitle = {Proceedings of the ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD)},
+  year      = {2027}
+}</pre>
+                </div>
+              </div>
+            </article>
+
+            <!-- 2. GenMatch -->
+            <article class="pub-item reveal" data-categories="accepted">
+              <div class="pub-margin">
+                <span class="venue-code venue-flagship">KDD ’27</span>
+              </div>
+              <div class="pub-content">
+                <h3 class="pub-title">
+                  <a href="https://arxiv.org/abs/2608.19751" target="_blank" rel="noopener noreferrer">
+                    GenMatch: An End-to-End Generative Matching Framework for Micro-View Order-Dispatching in Ride-Hailing
+                  </a>
+                </h3>
+                <p class="pub-authors">
+                  Chuang Liu, Yuxueqing Zhang, Tengfei Lyu, <strong class="author-me">Zirui Yuan</strong>, Weiqi Hu, Yanghan Cheng, Ming Wang, Li Ma, Zihao Lu
+                </p>
+                <p class="pub-venue">
+                  ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD), 2027
+                </p>
+                <div class="pub-actions">
+                  <a class="pub-link" href="https://arxiv.org/abs/2608.19751" target="_blank" rel="noopener noreferrer">Paper<span aria-hidden="true">↗</span></a>
+                  <button type="button" class="pub-toggle" data-drawer="bib-genmatch" aria-expanded="false">BibTeX</button>
+                </div>
+                <div class="pub-drawer" id="bib-genmatch" hidden>
+                  <div class="bib-header">
+                    <span>BibTeX</span>
+                    <button type="button" class="bib-copy" data-copy-target="bib-code-genmatch">Copy</button>
+                  </div>
+                  <pre class="bib-code" id="bib-code-genmatch">@inproceedings{liu2027genmatch,
+  title     = {GenMatch: An End-to-End Generative Matching Framework for Micro-View Order-Dispatching in Ride-Hailing},
+  author    = {Liu, Chuang and Zhang, Yuxueqing and Lyu, Tengfei and Yuan, Zirui and Hu, Weiqi and Cheng, Yanghan and Wang, Ming and Ma, Li and Lu, Zihao},
+  booktitle = {Proceedings of the ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD)},
+  year      = {2027}
+}</pre>
+                </div>
+              </div>
+            </article>
+
+            <!-- 3. ProfiLLM -->
+            <article class="pub-item reveal" data-categories="preprint">
+              <div class="pub-margin">
+                <span class="venue-code venue-review">VLDB ’27</span>
+                <span class="venue-sub">Under Review · Co-First</span>
+              </div>
+              <div class="pub-content">
+                <h3 class="pub-title">
+                  <a href="https://arxiv.org/abs/2606.18803" target="_blank" rel="noopener noreferrer">
+                    ProfiLLM: Utility-Aligned Agentic User Profiling for Industrial Ride-Hailing Dispatch
+                  </a>
+                </h3>
+                <p class="pub-authors">
+                  Tengfei Lyu<sup>*</sup>, <strong class="author-me">Zirui Yuan<sup>*</sup></strong>, Xu Liu, Kai Wan, Zihao Lu, Li Ma, Hao Liu
+                </p>
+                <p class="pub-venue">
+                  Under Review at VLDB, 2027 (arXiv:2606.18803)
+                </p>
+                <div class="pub-actions">
+                  <a class="pub-link" href="https://arxiv.org/abs/2606.18803" target="_blank" rel="noopener noreferrer">Paper<span aria-hidden="true">↗</span></a>
+                  <a class="pub-link" href="https://profillm.github.io/" target="_blank" rel="noopener noreferrer">Project<span aria-hidden="true">↗</span></a>
+                  <a class="pub-link" href="https://github.com/ProfiLLM/ProfiLLM" target="_blank" rel="noopener noreferrer">Code<span aria-hidden="true">↗</span></a>
+                  <button type="button" class="pub-toggle" data-drawer="bib-profillm" aria-expanded="false">BibTeX</button>
+                </div>
+                <div class="pub-drawer" id="bib-profillm" hidden>
+                  <div class="bib-header">
+                    <span>BibTeX</span>
+                    <button type="button" class="bib-copy" data-copy-target="bib-code-profillm">Copy</button>
+                  </div>
+                  <pre class="bib-code" id="bib-code-profillm">@article{lyu2026profillm,
+  title   = {ProfiLLM: Utility-Aligned Agentic User Profiling for Industrial Ride-Hailing Dispatch},
+  author  = {Lyu, Tengfei and Yuan, Zirui and Liu, Xu and Wan, Kai and Lu, Zihao and Ma, Li and Liu, Hao},
+  journal = {arXiv preprint arXiv:2606.18803},
+  year    = {2026}
+}</pre>
+                </div>
+              </div>
+            </article>
+
+            <!-- 4. CoLLMLight -->
+            <article class="pub-item reveal" data-categories="accepted">
+              <div class="pub-margin">
+                <span class="venue-code">ICLR ’26</span>
+              </div>
+              <div class="pub-content">
+                <h3 class="pub-title">
+                  <a href="https://openreview.net/forum?id=KeJqoEVOeY" target="_blank" rel="noopener noreferrer">
+                    CoLLMLight: Cooperative Large Language Model Agents for Network-Wide Traffic Signal Control
+                  </a>
+                </h3>
+                <p class="pub-authors">
+                  <strong class="author-me">Zirui Yuan</strong>, Siqi Lai, Hao Liu
+                </p>
+                <p class="pub-venue">
+                  International Conference on Learning Representations (ICLR), 2026
+                </p>
+                <div class="pub-actions">
+                  <a class="pub-link" href="https://openreview.net/forum?id=KeJqoEVOeY" target="_blank" rel="noopener noreferrer">Paper<span aria-hidden="true">↗</span></a>
+                  <a class="pub-link" href="https://github.com/zirui-yuan/CoLLMLight" target="_blank" rel="noopener noreferrer">Code<span aria-hidden="true">↗</span></a>
+                  <button type="button" class="pub-toggle" data-drawer="bib-collmlight" aria-expanded="false">BibTeX</button>
+                </div>
+                <div class="pub-drawer" id="bib-collmlight" hidden>
+                  <div class="bib-header">
+                    <span>BibTeX</span>
+                    <button type="button" class="bib-copy" data-copy-target="bib-code-collmlight">Copy</button>
+                  </div>
+                  <pre class="bib-code" id="bib-code-collmlight">@inproceedings{yuan2026collmlight,
+  title     = {CoLLMLight: Cooperative Large Language Model Agents for Network-Wide Traffic Signal Control},
+  author    = {Yuan, Zirui and Lai, Siqi and Liu, Hao},
+  booktitle = {International Conference on Learning Representations (ICLR)},
+  year      = {2026}
+}</pre>
+                </div>
+              </div>
+            </article>
+
+            <!-- 5. USTBench -->
+            <article class="pub-item reveal" data-categories="accepted">
+              <div class="pub-margin">
+                <span class="venue-code">ICLR ’26</span>
+              </div>
+              <div class="pub-content">
+                <h3 class="pub-title">
+                  <a href="https://openreview.net/forum?id=ETzBStUFJy" target="_blank" rel="noopener noreferrer">
+                    USTBench: Benchmarking and Dissecting Spatiotemporal Reasoning Capabilities of LLMs as Urban Agents
+                  </a>
+                </h3>
+                <p class="pub-authors">
+                  Siqi Lai, Yansong Ning, <strong class="author-me">Zirui Yuan</strong>, Zhixi Chen, Hao Liu
+                </p>
+                <p class="pub-venue">
+                  International Conference on Learning Representations (ICLR), 2026
+                </p>
+                <div class="pub-actions">
+                  <a class="pub-link" href="https://openreview.net/forum?id=ETzBStUFJy" target="_blank" rel="noopener noreferrer">Paper<span aria-hidden="true">↗</span></a>
+                  <a class="pub-link" href="https://github.com/usail-hkust/USTBench" target="_blank" rel="noopener noreferrer">Code<span aria-hidden="true">↗</span></a>
+                  <button type="button" class="pub-toggle" data-drawer="bib-ustbench" aria-expanded="false">BibTeX</button>
+                </div>
+                <div class="pub-drawer" id="bib-ustbench" hidden>
+                  <div class="bib-header">
+                    <span>BibTeX</span>
+                    <button type="button" class="bib-copy" data-copy-target="bib-code-ustbench">Copy</button>
+                  </div>
+                  <pre class="bib-code" id="bib-code-ustbench">@inproceedings{lai2026ustbench,
+  title     = {USTBench: Benchmarking and Dissecting Spatiotemporal Reasoning Capabilities of LLMs as Urban Agents},
+  author    = {Lai, Siqi and Ning, Yansong and Yuan, Zirui and Chen, Zhixi and Liu, Hao},
+  booktitle = {International Conference on Learning Representations (ICLR)},
+  year      = {2026}
+}</pre>
+                </div>
+              </div>
+            </article>
+
+            <!-- 6. Urban Agents Survey -->
+            <article class="pub-item reveal" data-categories="preprint">
+              <div class="pub-margin">
+                <span class="venue-code venue-preprint">arXiv ’25</span>
+                <span class="venue-sub">Survey</span>
+              </div>
+              <div class="pub-content">
+                <h3 class="pub-title">
+                  <a href="https://arxiv.org/abs/2507.00914" target="_blank" rel="noopener noreferrer">
+                    Large Language Model Powered Intelligent Urban Agents: Concepts, Capabilities, and Applications
+                  </a>
+                </h3>
+                <p class="pub-authors">
+                  Jindong Han, Yansong Ning, <strong class="author-me">Zirui Yuan</strong>, Hang Ni, Fan Liu, Tengfei Lyu, Hao Liu
+                </p>
+                <p class="pub-venue">
+                  arXiv preprint arXiv:2507.00914, 2025
+                </p>
+                <div class="pub-actions">
+                  <a class="pub-link" href="https://arxiv.org/abs/2507.00914" target="_blank" rel="noopener noreferrer">Paper<span aria-hidden="true">↗</span></a>
+                  <button type="button" class="pub-toggle" data-drawer="bib-survey" aria-expanded="false">BibTeX</button>
+                </div>
+                <div class="pub-drawer" id="bib-survey" hidden>
+                  <div class="bib-header">
+                    <span>BibTeX</span>
+                    <button type="button" class="bib-copy" data-copy-target="bib-code-survey">Copy</button>
+                  </div>
+                  <pre class="bib-code" id="bib-code-survey">@article{han2025urbanagents,
+  title   = {Large Language Model Powered Intelligent Urban Agents: Concepts, Capabilities, and Applications},
+  author  = {Han, Jindong and Ning, Yansong and Yuan, Zirui and Ni, Hang and Liu, Fan and Lyu, Tengfei and Liu, Hao},
+  journal = {arXiv preprint arXiv:2507.00914},
+  year    = {2025}
+}</pre>
+                </div>
+              </div>
+            </article>
+
+            <!-- 7. GBIM -->
+            <article class="pub-item reveal" data-categories="accepted">
+              <div class="pub-margin">
+                <span class="venue-code">AAAI ’24</span>
+              </div>
+              <div class="pub-content">
+                <h3 class="pub-title">
+                  <a href="https://ojs.aaai.org/index.php/AAAI/article/view/30255" target="_blank" rel="noopener noreferrer">
+                    Graph Bayesian Optimization for Multiplex Influence Maximization
+                  </a>
+                </h3>
+                <p class="pub-authors">
+                  <strong class="author-me">Zirui Yuan</strong>, Minglai Shao, Zhiqian Chen
+                </p>
+                <p class="pub-venue">
+                  Proceedings of the AAAI Conference on Artificial Intelligence (AAAI), 2024
+                </p>
+                <div class="pub-actions">
+                  <a class="pub-link" href="https://ojs.aaai.org/index.php/AAAI/article/view/30255" target="_blank" rel="noopener noreferrer">Paper<span aria-hidden="true">↗</span></a>
+                  <a class="pub-link" href="https://github.com/zirui-yuan/GBIM" target="_blank" rel="noopener noreferrer">Code<span aria-hidden="true">↗</span></a>
+                  <button type="button" class="pub-toggle" data-drawer="bib-gbim" aria-expanded="false">BibTeX</button>
+                </div>
+                <div class="pub-drawer" id="bib-gbim" hidden>
+                  <div class="bib-header">
+                    <span>BibTeX</span>
+                    <button type="button" class="bib-copy" data-copy-target="bib-code-gbim">Copy</button>
+                  </div>
+                  <pre class="bib-code" id="bib-code-gbim">@inproceedings{yuan2024gbim,
+  title     = {Graph Bayesian Optimization for Multiplex Influence Maximization},
+  author    = {Yuan, Zirui and Shao, Minglai and Chen, Zhiqian},
+  booktitle = {Proceedings of the AAAI Conference on Artificial Intelligence (AAAI)},
+  year      = {2024}
+}</pre>
+                </div>
+              </div>
+            </article>
+
+            <!-- 8. MADG -->
+            <article class="pub-item reveal" data-categories="accepted">
+              <div class="pub-margin">
+                <span class="venue-code">TIFS ’23</span>
+              </div>
+              <div class="pub-content">
+                <h3 class="pub-title">
+                  <a href="https://ieeexplore.ieee.org/document/10115014" target="_blank" rel="noopener noreferrer">
+                    Motif-level Anomaly Detection in Dynamic Graphs
+                  </a>
+                </h3>
+                <p class="pub-authors">
+                  <strong class="author-me">Zirui Yuan</strong>, Minglai Shao, Qiben Yan
+                </p>
+                <p class="pub-venue">
+                  IEEE Transactions on Information Forensics and Security (TIFS), 18: 2870–2882, 2023
+                </p>
+                <div class="pub-actions">
+                  <a class="pub-link" href="https://ieeexplore.ieee.org/document/10115014" target="_blank" rel="noopener noreferrer">Paper<span aria-hidden="true">↗</span></a>
+                  <a class="pub-link" href="https://github.com/zirui-yuan/MADG" target="_blank" rel="noopener noreferrer">Code<span aria-hidden="true">↗</span></a>
+                  <button type="button" class="pub-toggle" data-drawer="bib-madg" aria-expanded="false">BibTeX</button>
+                </div>
+                <div class="pub-drawer" id="bib-madg" hidden>
+                  <div class="bib-header">
+                    <span>BibTeX</span>
+                    <button type="button" class="bib-copy" data-copy-target="bib-code-madg">Copy</button>
+                  </div>
+                  <pre class="bib-code" id="bib-code-madg">@article{yuan2023madg,
+  title   = {Motif-level Anomaly Detection in Dynamic Graphs},
+  author  = {Yuan, Zirui and Shao, Minglai and Yan, Qiben},
+  journal = {IEEE Transactions on Information Forensics and Security},
+  volume  = {18},
+  pages   = {2870--2882},
+  year    = {2023}
+}</pre>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- Experience -->
+      <section class="section" id="experience">
+        <div class="container">
+          <div class="section-header reveal">
+            <h2 class="section-title">Experience</h2>
+          </div>
+
+          <div class="timeline-list">
+            <div class="timeline-item reveal">
+              <div class="timeline-period">2025.09 – 2026.07</div>
+              <div class="timeline-body">
+                <h3 class="timeline-title">DiDi Chuxing</h3>
+                <p class="timeline-role">Research Intern</p>
+                <p class="timeline-desc">
+                  Researched LLM-powered decision-making, autonomous policy evolution, and generative matching for real-world ride-hailing dispatch (<em>DispatchEvolve</em>, <em>GenMatch</em>, <em>ProfiLLM</em>). Deployed <em>DispatchEvolve</em> across multiple cities in online A/B tests, achieving up to +1.32% GMV and +1.07% completion rate.
+                </p>
+              </div>
+            </div>
+
+            <div class="timeline-item reveal">
+              <div class="timeline-period">2024.03 – 2024.08</div>
+              <div class="timeline-body">
+                <h3 class="timeline-title">HKUST(GZ)</h3>
+                <p class="timeline-role">Research Assistant Intern</p>
+                <p class="timeline-desc">
+                  Investigated cooperative large language model agents for network-wide signal control, resulting in <em>CoLLMLight</em> (ICLR 2026).
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Education -->
+      <section class="section" id="education">
+        <div class="container">
+          <div class="section-header reveal">
+            <h2 class="section-title">Education</h2>
+          </div>
+
+          <div class="timeline-list">
+            <div class="timeline-item reveal">
+              <div class="timeline-period">2024.08 – Present</div>
+              <div class="timeline-body">
+                <h3 class="timeline-title">The Hong Kong University of Science and Technology (Guangzhou)</h3>
+                <p class="timeline-role">Ph.D. Candidate in Artificial Intelligence</p>
+              </div>
+            </div>
+
+            <div class="timeline-item reveal">
+              <div class="timeline-period">2021.09 – 2024.03</div>
+              <div class="timeline-body">
+                <h3 class="timeline-title">Tianjin University</h3>
+                <p class="timeline-role">M.Sc. in Computer Technology</p>
+              </div>
+            </div>
+
+            <div class="timeline-item reveal">
+              <div class="timeline-period">2017.09 – 2021.06</div>
+              <div class="timeline-body">
+                <h3 class="timeline-title">Dalian Maritime University</h3>
+                <p class="timeline-role">B.E. in Electronic Information Science and Technology</p>
+                <p class="timeline-desc">GPA: 3.8 / 4.0 · Rank: 5 / 88</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Honors & Awards -->
+      <section class="section section-last" id="honors">
+        <div class="container">
+          <div class="section-header reveal">
+            <h2 class="section-title">Honors &amp; Awards</h2>
+          </div>
+
+          <ul class="honors-list">
+            <li class="honor-item reveal">
+              <span class="honor-year">2026.10</span>
+              <span class="honor-title">Second Prize, DiDi Data Summit AI Data-Driven Competition</span>
+            </li>
+            <li class="honor-item reveal">
+              <span class="honor-year">2022–2023</span>
+              <span class="honor-title">Second-Class Graduate Academic Scholarship, Tianjin University (twice)</span>
+            </li>
+            <li class="honor-item reveal">
+              <span class="honor-year">2021</span>
+              <span class="honor-title">First-Class Graduate Academic Scholarship, Tianjin University</span>
+            </li>
+            <li class="honor-item reveal">
+              <span class="honor-year">2021</span>
+              <span class="honor-title">Outstanding Graduate of Dalian</span>
+            </li>
+            <li class="honor-item reveal">
+              <span class="honor-year">2020</span>
+              <span class="honor-title">First Prize, China Undergraduate Mathematical Contest in Modeling (Liaoning Province)</span>
+            </li>
+            <li class="honor-item reveal">
+              <span class="honor-year">2019</span>
+              <span class="honor-title">Meritorious Winner (Top 7.4%), Mathematical Contest in Modeling (MCM)</span>
+            </li>
+            <li class="honor-item reveal">
+              <span class="honor-year">2019</span>
+              <span class="honor-title">First Prize, Bonc Cup University Big Data Development Competition</span>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <p class="footer-copy">
+          © 2026 Zirui Yuan · Updated November 2026
+        </p>
+        <div class="footer-links">
+          <button type="button" class="footer-link-btn email-action">Email</button>
+          <a href="https://scholar.google.com/citations?user=8tJFoscAAAAJ" target="_blank" rel="noopener noreferrer">Scholar</a>
+          <a href="https://github.com/zirui-yuan" target="_blank" rel="noopener noreferrer">GitHub</a>
+          <a href="#top" class="back-top" aria-label="Back to top">Top ↑</a>
+        </div>
+      </div>
+    </footer>
+
+    <div class="toast" id="toast" role="status" aria-live="polite" aria-atomic="true"></div>
+  </body>
+</html>
